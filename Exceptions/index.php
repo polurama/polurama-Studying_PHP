@@ -8,7 +8,7 @@ function inverse(int $x): float {
     return 1/$x;
 }
 try {
-    echo inverse(0), "\n", 'ddd', "\n";
+    echo inverse(50), "\n", 'ddd', "\n";
     echo "Hi!", "\n";
 
 } catch (Throwable $e) {
