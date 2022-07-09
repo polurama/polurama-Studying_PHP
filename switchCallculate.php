@@ -11,6 +11,8 @@ function calculate($operation, $num1, $num2) {
             return $num1 / $num2;
         case '*' :
             return $num1 * $num2;
+        default:
+            return null;
     }
 }
-echo calculate('*', 1,5);
+echo calculate('#', 1,2);
