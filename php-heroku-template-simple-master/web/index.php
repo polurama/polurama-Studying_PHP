@@ -17,4 +17,6 @@ if(!isset($_SESSION['username'])) {
 <hr>
 <a href="exit.php">Завершить сессию</a>
 <hr>
+<a href="form.html">форма Дадата</a>
+<hr>
 <?php } ?>
