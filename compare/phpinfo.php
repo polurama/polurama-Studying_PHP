@@ -2,11 +2,11 @@
 
 //phpinfo();
 
-//if (ZEND_THREAD_SAFE) {
-//    echo 'Thread safe';
-//} else {
-//    echo 'Not thread safe';
-//}
+if (ZEND_THREAD_SAFE) {
+    echo 'Thread safe', PHP_EOL;
+} else {
+    echo 'Not thread safe', PHP_EOL;
+}
 //echo serialize(ini_get_all());
 
 $image = new Imagick();
